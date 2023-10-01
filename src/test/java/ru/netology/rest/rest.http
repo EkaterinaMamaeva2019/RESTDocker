@@ -1,0 +1,24 @@
+GET http://localhost:9999/authorize?user=admin&password=1111
+Accept: application/json
+
+###
+
+GET http://localhost:9999/authorize?user=manager&password=2222
+Accept: application/json
+
+###
+
+GET http://localhost:9999/authorize?user=user&password=3333
+Accept: application/json
+
+###
+
+GET http://localhost:9999/authorize?user=&password=1111
+Accept: application/json
+
+###
+
+GET http://localhost:9999/authorize?user=petya&password=1111
+Accept: application/json
+
+###
